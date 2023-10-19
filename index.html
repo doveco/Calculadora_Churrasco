@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Churrasco</title>
+</head>
+
+<body>
+
+    <h1>Calculadora de Churrasco</h1>
+
+    <p> Faça uma página HTML que faça o cálculo de quantos kg de carne é necessário para um churrasco. A página deve solicitar: <br>
+        - quantidade de pessoas; <br>
+        - quantidade de gramas por pessoa; <br>
+        - tipo de carne; <br>
+        - preço por kg de carne; <br>
+        Deve ter um botão para calcular que chame a função necessária no javascript que faça o cálculo. <br>
+        Se a quantidade de pessoas for maior que 10, calcule um aumento de 10 % no valor total. </p>
+
+    <div>
+
+        <form>
+
+            <label for="pessoas">Quantidade de pessoas: </label>
+            <input type="number" id="pessoas" placeholder="Quantidade de pessoas">
+            <br>
+
+            <label for="gramas">Quantidade de gramas por pessoa: </label>
+            <input type="number" id="gramas" placeholder="Quantidade de gramas por pessoa">
+            <br>
+
+            <label for="carne">Tipo de carne: </label>
+            <input type="text" id="carne" placeholder="Tipo de carne">
+            <br>
+
+            <label for="preco">Precos por kg de carne: </label>
+            <input type="number" id="preco" placeholder="Precos por kg da carne">
+            <br>
+
+            <input type="button" id="calculando" value="Calcular">
+
+        </form>
+
+        <p id="resultado"> </p>                
+
+    </div>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
